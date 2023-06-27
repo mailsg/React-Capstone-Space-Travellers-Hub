@@ -1,16 +1,12 @@
 
 .container {
   display: flex;
-    margin: 0 6%;
+  margin: 0 6%;
 }
 
 .img-style {
-  width:400px;
-  margin:5px;
-}
-
-h2 {
-  color:red;
+  width: 400px;
+  margin: 5px;
 }
 
 .details {
@@ -33,7 +29,6 @@ h2 {
   font-size: small;
 }
 
-
 .container div:nth-child(1) {
   margin: 20px 30px;
 }
@@ -48,4 +43,18 @@ h2 {
   border: transparent;
   background-color: #088df3;
   color: #fff;
+}
+
+/* -------------this my profile---styling- */
+.my-container {
+  width: 40%;
+}
+
+.my-container ul {
+  list-style-type: none;
+}
+
+.my-container ul li {
+  border: 1px solid black;
+  padding: 10px 15px;
 }

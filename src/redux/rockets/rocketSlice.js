@@ -3,14 +3,14 @@ import axios from 'axios';
 
 const initialState = {
   rockets: [],
-  isLoading: true,
+  // isLoading: true,
 };
 
 export const fetchRockets = createAsyncThunk(
   'rockets/fetchRockets',
   async (_, thunkAPI) => {
     try {
-      const response = await axios.get('https://api.spacexdata.com/v3/rockets');
+      const response = await axios.get('https://api.spacexdata.com/v4/rockets');
       return response.data;
     } catch (error) {
       return thunkAPI.rejectWithValue('something went wrong');
@@ -46,6 +46,6 @@ const rocketsSlice = createSlice({
   },
 });
 
-export const { reserveRocket, cancelReserveRocket } = rocketsSlice.action;
+export const { reserveRocket, cancelReserveRocket } = rocketsSlice.actions;
 
 export default rocketsSlice.reducer;
