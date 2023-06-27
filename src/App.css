@@ -1,3 +1,60 @@
-.App {
-  text-align: center;
+
+.container {
+  display: flex;
+  margin: 0 6%;
+}
+
+.img-style {
+  width: 400px;
+  margin: 5px;
+}
+
+.details {
+  padding-top: 10px;
+}
+
+.details button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.details span {
+  background-color: #1aa1b9;
+  color: #fff;
+  padding: 3px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin: 0 4px;
+  font-size: small;
+}
+
+.container div:nth-child(1) {
+  margin: 20px 30px;
+}
+
+.cancel-rocket {
+  background-color: #fff;
+  color: gray;
+  border: 1px solid gray;
+}
+
+.reserve-rocket {
+  border: transparent;
+  background-color: #088df3;
+  color: #fff;
+}
+
+/* -------------this my profile---styling- */
+.my-container {
+  width: 40%;
+}
+
+.my-container ul {
+  list-style-type: none;
+}
+
+.my-container ul li {
+  border: 1px solid black;
+  padding: 10px 15px;
 }
