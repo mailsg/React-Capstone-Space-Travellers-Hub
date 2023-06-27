@@ -8,7 +8,7 @@ const initialState = {
 
 export const fetchRockets = createAsyncThunk(
   'rockets/fetchRockets',
-  async (name, thunkAPI) => {
+  async (_, thunkAPI) => {
     try {
       const response = await axios.get('https://api.spacexdata.com/v3/rockets');
       return response.data;
@@ -46,6 +46,6 @@ const rocketsSlice = createSlice({
   },
 });
 
-export const { reserve, cancelReserveRocket } = rocketsSlice.action;
+export const { reserveRocket, cancelReserveRocket } = rocketsSlice.action;
 
 export default rocketsSlice.reducer;
