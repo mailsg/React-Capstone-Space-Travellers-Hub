@@ -8,6 +8,11 @@
   text-decoration: underline;
 }
 
+.profile {
+  display: flex;
+  gap: 15rem;
+}
+
 .container {
   display: flex;
   margin: 0 4%;
@@ -57,6 +62,10 @@
 /* -------------this my profile---styling- */
 .my-container {
   width: 40%;
+}
+
+.my-container h2 {
+  margin-left: 2rem;
 }
 
 .my-container ul {
