@@ -14,7 +14,7 @@
 }
 
 .img-style {
-  width: 245px;
+  width: 305px;
   margin: 5px;
 }
 
@@ -24,7 +24,7 @@
 
 .details button {
   padding: 10px 15px;
-  border-radius: 6px;
+  border-radius: 10px;
   font-size: 18px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .container div:nth-child(1) {
-  margin: 20px 30px;
+  margin: 22px 30px;
 }
 
 .cancel-rocket {
