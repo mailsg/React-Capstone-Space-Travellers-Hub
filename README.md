@@ -59,7 +59,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Rocket Reservation**
-- **Joing Mission**
+- **Joining Mission**
 - **Profile**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
