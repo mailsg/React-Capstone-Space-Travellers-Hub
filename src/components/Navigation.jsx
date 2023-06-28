@@ -6,24 +6,24 @@ import Stack from 'react-bootstrap/Stack';
 import logo from '../images/logo.png';
 
 const Navigation = () => (
-  <Stack direction="horizontal" gap={3} className="mx-5 mx-3 pb-3" style={{ borderBottom: '1px solid black' }}>
-
-    <img src={logo} alt="SpaceX" style={{ width: 65, height: 65 }} />
+  <Stack direction="horizontal" gap={3} className="mx-5 my-3 pb-3" style={{ borderBottom: '1px solid black' }}>
+    <img src={logo} style={{ width: 65, height: 65 }} alt="logo" />
     <h1>Space Travelers` Hub</h1>
     <Nav className="ms-auto">
+      <Nav.Item><Nav.Link as={NavLink} to="/" className="nav-link-effect">Rockets</Nav.Link></Nav.Item>
       <Nav.Item>
-        <Nav.Link as={NavLink} to="/" activeClassName="active">Rockets</Nav.Link>
-        <Nav.Link as={NavLink} to="/Missions" activeClassName="active" style={{ borderRight: '1px solid black', paddingRight: '15px' }}>
+        <Nav.Link
+          as={NavLink}
+          className="nav-link-effect"
+          to="/missions"
+          style={{ marginRight: '1rem' }}
+        >
           Missions
         </Nav.Link>
       </Nav.Item>
+      <h6 style={{ marginTop: '0.5rem', marginRight: '1.5rem' }}>|</h6>
+      <Nav.Item><Nav.Link as={NavLink} className="nav-link-effect" to="/myprofile" style={{ marginRight: '3.5rem' }}>My Profile</Nav.Link></Nav.Item>
     </Nav>
-    <div className="ms-auto">
-      <Nav.Item>
-        <Nav.Link as={NavLink} to="/My Profile" activeClassName="active">My Profile</Nav.Link>
-      </Nav.Item>
-    </div>
-
   </Stack>
 );
 
