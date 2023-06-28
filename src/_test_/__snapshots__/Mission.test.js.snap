@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Interactions test will test user interaction 1`] = `
+<div
+  className="mx-5 px-4"
+>
+  <div
+    className="table-responsive-sm"
+  >
+    <table
+      className="table table-striped table-bordered table-hover"
+    >
+      <thead>
+        <tr
+          className="fw-bold"
+        >
+          <th
+            style={
+              Object {
+                "width": "10%",
+              }
+            }
+          >
+            Mission
+          </th>
+          <th
+            style={
+              Object {
+                "width": "60%",
+              }
+            }
+          >
+            Description
+          </th>
+          <th
+            style={
+              Object {
+                "width": "15%",
+              }
+            }
+          >
+            Status
+          </th>
+          <th
+            style={
+              Object {
+                "width": "15%",
+              }
+            }
+          >
+             
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+  </div>
+</div>
+`;
