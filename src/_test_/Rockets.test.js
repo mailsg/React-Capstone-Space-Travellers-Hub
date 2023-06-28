@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import renderer from 'react-test-renderer';
 import React from 'react';
 import store from '../redux/store';
-import Rockets from '../components/rockets';
+import Rockets from '../components/RocketData';
 
 describe('User Interactions test', () => {
   it('will test user interaction', () => {
