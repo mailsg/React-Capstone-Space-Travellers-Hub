@@ -10,11 +10,11 @@
 
 .container {
   display: flex;
-  margin: 0 6%;
+  margin: 0 4%;
 }
 
 .img-style {
-  width: 400px;
+  width: 245px;
   margin: 5px;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .details span {
-  background-color: #1aa1b9;
+  background-color: #1fb998;
   color: #fff;
   padding: 3px;
   border: 1px solid transparent;
