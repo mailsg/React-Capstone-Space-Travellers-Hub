@@ -1,22 +1,15 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import RocketData from './RocketData';
-import { fetchRockets } from '../redux/rockets/rocketSlice';
 
 const Rockets = () => {
   const { rockets } = useSelector((store) => store.rockets);
 
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(fetchRockets());
-  }, [dispatch]);
-
   return (
     <div>
-      {
-      (rockets && rockets.length > 0) ? (
-        rockets.map((item) => (
+      {rockets && rockets.length > 0
+        ? rockets.map((item) => (
           <RocketData
             key={uuidv4()}
             id={item.id}
@@ -26,8 +19,7 @@ const Rockets = () => {
             reserved={item.reserved}
           />
         ))
-      ) : 'loading'
-      }
+        : 'loading'}
     </div>
   );
 };

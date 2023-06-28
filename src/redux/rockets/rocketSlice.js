@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const initialState = {
   rockets: [],
-  // isLoading: true,
+  isLoading: true,
 };
 
 export const fetchRockets = createAsyncThunk(

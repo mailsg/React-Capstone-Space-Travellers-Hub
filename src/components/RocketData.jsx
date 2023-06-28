@@ -17,7 +17,7 @@ const RocketData = ({
       <div className="details">
         <h2>{name}</h2>
         <p>
-          {reserved && <span>reserved</span>}
+          {reserved && <span>Reserved</span>}
           {description}
         </p>
         {reserved ? (
@@ -26,7 +26,7 @@ const RocketData = ({
             type="button"
             onClick={() => dispatch(cancelReserveRocket(id))}
           >
-            cancel Rocket
+            Cancel Reservation
           </button>
         ) : (
           <button
