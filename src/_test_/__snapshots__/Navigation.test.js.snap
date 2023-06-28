@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Interactions test will test user interaction 1`] = `
+<div
+  className="mx-5 my-3 pb-3 hstack gap-3"
+  style={
+    Object {
+      "borderBottom": "1px solid black",
+    }
+  }
+>
+  <img
+    alt="logo"
+    src="logo.png"
+    style={
+      Object {
+        "height": 65,
+        "width": 65,
+      }
+    }
+  />
+  <h1>
+    Space Travelers\` Hub
+  </h1>
+  <div
+    className="ms-auto nav"
+    onKeyDown={[Function]}
+  >
+    <div
+      className="nav-item"
+    >
+      <a
+        aria-current="page"
+        className="nav-link-effect nav-link active"
+        data-rr-ui-event-key={null}
+        disabled={false}
+        href="/"
+        onClick={[Function]}
+      >
+        Rockets
+      </a>
+    </div>
+    <div
+      className="nav-item"
+    >
+      <a
+        className="nav-link-effect nav-link"
+        data-rr-ui-event-key={null}
+        disabled={false}
+        href="/missions"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginRight": "1rem",
+          }
+        }
+      >
+        Missions
+      </a>
+    </div>
+    <h6
+      style={
+        Object {
+          "marginRight": "1.5rem",
+          "marginTop": "0.5rem",
+        }
+      }
+    >
+      |
+    </h6>
+    <div
+      className="nav-item"
+    >
+      <a
+        className="nav-link-effect nav-link"
+        data-rr-ui-event-key={null}
+        disabled={false}
+        href="/myprofile"
+        onClick={[Function]}
+        style={
+          Object {
+            "marginRight": "3.5rem",
+          }
+        }
+      >
+        My Profile
+      </a>
+    </div>
+  </div>
+</div>
+`;

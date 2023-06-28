@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Interactions test will test user interaction 1`] = `
+<div
+  className="profile mx-5"
+>
+  <div
+    className="my-container"
+  >
+    <h2>
+      My Missions
+    </h2>
+    <ul />
+  </div>
+  <div
+    className="my-container"
+  >
+    <h2>
+      My Rockets
+    </h2>
+    <ul />
+  </div>
+</div>
+`;

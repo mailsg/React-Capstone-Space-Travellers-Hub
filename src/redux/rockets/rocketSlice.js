@@ -6,11 +6,13 @@ const initialState = {
   isLoading: true,
 };
 
+const URL = 'https://api.spacexdata.com/v4/rockets';
+
 export const fetchRockets = createAsyncThunk(
   'rockets/fetchRockets',
   async (_, thunkAPI) => {
     try {
-      const response = await axios.get('https://api.spacexdata.com/v4/rockets');
+      const response = await axios.get(URL);
       return response.data;
     } catch (error) {
       return thunkAPI.rejectWithValue('something went wrong');
